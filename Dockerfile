@@ -1,6 +1,6 @@
-FROM debian:jessie
+FROM debian:sid
 
-LABEL maintainer "opsxcq@strm.sh"
+LABEL maintainer "alessio@linux.com"
 
 # Base packages
 RUN apt-get update && \
